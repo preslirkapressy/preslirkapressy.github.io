@@ -104,8 +104,8 @@
             <div class="card project">
               <img src="/img/projects/1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
-                <h5 class="card-title">Quiz App</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Quiz App with Timer</h5>
+                <p class="card-text">Built with HTML + CSS + Javascript.</p>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@
               <img src="/img/projects/2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <h5 class="card-title">Todo App</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Built with HTML + CSS + Javascript.</p>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@
               <img src="/img/projects/3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <h5 class="card-title">Clinic App</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Built with Adobe XD.</p>
               </div>
             </div>
           </div>
@@ -209,9 +209,9 @@
 
       projects.forEach((card, i) => {
         card.dataset.aos = 'fade-down';
-        card.dataset.aosOffset = '350';
-        card.dataset.aosDuration = '1000';
-        card.dataset.aosDelay = '100';
+        card.dataset.aosOffset = 350;
+        card.dataset.aosDuration = 1000;
+        card.dataset.aosDelay = i * 100;
       });
 
       AOS.init({
