@@ -9,8 +9,17 @@ body {
   background: #e2edff;
 }
 
+.jumbotron h1 {
+  font-size: 3rem;
+}
+
 #projects {
   background: #e2edff;
+}
+
+#projects .container .row .col-md-4 .card img {
+  width: 100%;
+  height: 300px;
 }
 
 section {
