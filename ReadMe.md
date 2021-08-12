@@ -6,7 +6,7 @@ Build with :
 
 - HTML
 - CSS
-- Javasrcript
+- Javascript
 - Bootstrap
 - AOS
 - GSAP
